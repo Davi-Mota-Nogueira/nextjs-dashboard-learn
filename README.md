@@ -32,3 +32,9 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
     - */app/ui*: Contains all **UI** components for your application, ex.:Cards, tables and forms;
 - */public*: Contains all static **Assets**, ex.: images;
 - */scripts*: Contains **Seeding Script**, will be used to populate database
+
+## Putting stylesheet
+You can make a global CSS file in *app/ui* and import it to components;
+    (It is a good practice to add in top-level component)
+In this example the project uses Tailwind framework;
+You can also use the **clsx** to make conditionally styles;
