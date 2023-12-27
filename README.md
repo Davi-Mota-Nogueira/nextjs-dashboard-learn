@@ -34,18 +34,18 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 - */scripts*: Contains **Seeding Script**, will be used to populate database
 
 ## Putting stylesheet
-You can make a global CSS file in *app/ui* and import it to components;
-    (It is a good practice to add in top-level component)
-In this example the project uses Tailwind framework;
-You can also use the **clsx** to make conditionally styles;
+- You can make a global CSS file in *app/ui* and import it to components;
+    - (It is a good practice to add in top-level component)
+- In this example the project uses Tailwind framework;
+- You can also use the **clsx** to make conditionally styles;
 
 ## Adding Custom Fonts and Images
-Next.js have an optimization of fonts because some custom ones have to be fetched from the internet and sometimes, the browser have a Layout Shift with other fonts before the custom ones appear. The next/font module downloads the font files at *build time* and hosts as a static asset;
+- Next.js have an optimization of fonts because some custom ones have to be fetched from the internet and sometimes, the browser have a Layout Shift with other fonts before the custom ones appear. The next/font module downloads the font files at *build time* and hosts as a static asset;
 
-Next.js also have an Image Optimazation with an Image component, that resizes the image file size to send a smaller file to client, lazy loads images by default, serves them into modern formats and prevents the layout shift when loading page;
+- Next.js also have an Image Optimazation with an Image component, that resizes the image file size to send a smaller file to client, lazy loads images by default, serves them into modern formats and prevents the layout shift when loading page;
 
 ## Creating new Pages
-Nested **Routes** Next.js uses file-system routes as URL Segment;
-The file *page.tsx* serves as a way to export React components, in other words, to show the page of another route you must include in the directory the file *page.tsx*;
-So in reality, to access a page *http://localhost:3000/dashboard/customers*. You have to create a folder called *dashboard* and inside it another folder called *customers*, and a *page.tsx* in both of them;
-Even making a new *Layout.tsx* file in dashboard, there is a *RootLayout* function that its purpose is to share the UI across multiple pages;
+- Nested **Routes** Next.js uses file-system routes as URL Segment;
+- The file *page.tsx* serves as a way to export React components, in other words, to show the page of another route you must include in the directory the file *page.tsx*;
+- So in reality, to access a page *http://localhost:3000/dashboard/customers*. You have to create a folder called *dashboard* and inside it another folder called *customers*, and a *page.tsx* in both of them;
+- Even making a new *Layout.tsx* file in dashboard, there is a *RootLayout* function that its purpose is to share the UI across multiple pages;
