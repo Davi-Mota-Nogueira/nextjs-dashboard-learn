@@ -53,4 +53,7 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 ## How to change Pages
 - Navigating throught the <a> tag causes the app to refresh, due to that, Next.js made a <Link /> component to change the pages without the need to the page be refreshed;
 - This happens because when there is a <Link> component, Next.js automatically prefetches the code for it;
-- Next.js provides a *hook* called usePathname()
+- Next.js provides a *hook* called usePathname() to check the pattern of the links;
+
+## Database Implementation
+- Using Vercel Hobby plan, we deploy the project into Vercel's workspace, with this, we can create a Postgres Database in Vercel;
