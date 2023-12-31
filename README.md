@@ -49,3 +49,8 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 - The file *page.tsx* serves as a way to export React components, in other words, to show the page of another route you must include in the directory the file *page.tsx*;
 - So in reality, to access a page *http://localhost:3000/dashboard/customers*. You have to create a folder called *dashboard* and inside it another folder called *customers*, and a *page.tsx* in both of them;
 - Even making a new *Layout.tsx* file in dashboard, there is a *RootLayout* function that its purpose is to share the UI across multiple pages;
+
+## How to change Pages
+- Navigating throught the <a> tag causes the app to refresh, due to that, Next.js made a <Link /> component to change the pages without the need to the page be refreshed;
+- This happens because when there is a <Link> component, Next.js automatically prefetches the code for it;
+- Next.js provides a *hook* called usePathname()
