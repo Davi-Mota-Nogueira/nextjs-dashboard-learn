@@ -57,3 +57,5 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 
 ## Database Implementation
 - Using Vercel Hobby plan, we deploy the project into Vercel's workspace, with this, we can create a Postgres Database in Vercel;
+- In the folder *scripts* there is a *seed.js* that creates tables and populates it;
+- You can use SQL queries in the Vercel's page of the project;  
