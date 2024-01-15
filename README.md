@@ -66,3 +66,5 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 - In the API Layer you can use in case of using 3rd party services or if you are fetching data for a client, so to keep secret of the server, you create an API to not have server exposed;
 - With Database Queries, you use for a full-stack application and use Relational Database or an ORM like Prisma, a case for using this, is when creating API endpoints or query the database directly to the app, risking leakage;
 - When using await function, you make a waterfall requests, a sequential way of fetching, using *Promise.all()* or *Promise.allSettled()* make the requests working paralleled;
+
+## Static and Dynamic Rendering
