@@ -68,3 +68,5 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 - When using await function, you make a waterfall requests, a sequential way of fetching, using *Promise.all()* or *Promise.allSettled()* make the requests working paralleled;
 
 ## Static and Dynamic Rendering
+- Static rendering is used for applications that has static data (no data shared throught users) or no data. Because is *static*;
+- Dynamic rendering is great to have a real-time data displayed, have an user-specific content;
