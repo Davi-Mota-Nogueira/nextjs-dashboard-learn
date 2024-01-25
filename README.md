@@ -70,3 +70,9 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 ## Static and Dynamic Rendering
 - Static rendering is used for applications that has static data (no data shared throught users) or no data. Because is *static*;
 - Dynamic rendering is great to have a real-time data displayed, have an user-specific content;
+
+## Streaming
+- When there is a *loading.tsx* page, it uses while the page is loading;
+- You can change the level of priority with **Route Groups** putting files in *(overview)* folder;
+- Parentheses is ignored in URL;
+- Suspense boundaries to load everything at once;
