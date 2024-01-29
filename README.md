@@ -76,3 +76,14 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 - You can change the level of priority with **Route Groups** putting files in *(overview)* folder;
 - Parentheses is ignored in URL;
 - Suspense boundaries to load everything at once;
+
+## Partial Prerendering
+- You can make a page dynamic and static at the same time by components;
+
+## Search and Pagination
+- Some important components:
+    -  <Seach />
+    - <Pagination />
+    - <Table />
+- <Search> is a Client Component, so you used the useSearchParams() hook to access the params from the client.
+- <Table> is a Server Component that fetches its own data, so you can pass the searchParams prop from the page to the component.
